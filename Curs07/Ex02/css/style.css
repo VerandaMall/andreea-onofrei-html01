@@ -1,5 +1,6 @@
 i {
   color: red;
+  text-decoration: underline;
 }
 
 .links a {
@@ -9,4 +10,25 @@ i {
 a[href^="http://"]
 {
   color: red;
+}
+
+a {
+  color: green;
+}
+
+.line {
+  text-decoration: underline;
+  color: grey;
+}
+
+b {
+  color: purple;
+}
+
+a[href$='.com'] {
+  color: black;
+}
+
+.even b {
+  text-decoration: underline;
 }

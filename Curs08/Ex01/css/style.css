@@ -7,3 +7,33 @@ p b {
   color: yellow;
   text-decoration: underline;
 }
+
+h1 {
+  color: red;
+  text-decoration: underline;
+}
+
+p {
+  color: grey;
+}
+
+li a {
+  color: green;
+  text-decoration: line-through blue;
+}
+
+h3 {
+  text-shadow: 0 3px 5px green;
+  text-decoration: underline dotted brown;
+}
+
+li {
+  color: purple;
+  text-decoration: underline;
+}
+
+p i {
+  color: blue;
+  text-decoration: line-through;
+  font-weight: bold;
+}
