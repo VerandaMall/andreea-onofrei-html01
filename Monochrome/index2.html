@@ -65,7 +65,7 @@
       <!-- ./header-contact -->
 
       <section class="header-controls">
-        <div class="header-search">
+        <form class="header-search">
           <label for="Search"></label>
           <input
             type="text"
@@ -80,7 +80,7 @@
             name="submit"
           ><i class="fas fa-search"></i>
           </button>
-        </div>
+        </form>
 
         <div class="user-controls">
           <ul>
@@ -889,27 +889,20 @@
         action="subscribe"
         class="footer-newsletter"
       >
-        <ul>
-          <li>sign up for our newsletter</li>
+        <h2>sign up for our newsletter</h2>
+        <label for="subscribe"></label>
+        <input
+          type="text"
+          name="subscribe"
+          id="subscribe"
+        >
+        <button
+          type="submit"
+          title="Search"
+          id="submit"
+          name="submit"
+        >submit</button>
 
-          <li>
-            <label for="subscribe"></label>
-            <input
-              type="text"
-              name="subscribe"
-              id="subscribe"
-            >
-          </li>
-
-          <li>
-            <button
-              type="submit"
-              title="Search"
-              id="submit"
-              name="submit"
-            >submit</button>
-          </li>
-        </ul>
       </form>
 
       <ul class="footer-social">
