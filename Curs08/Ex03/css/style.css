@@ -26,3 +26,48 @@
   padding-bottom: 11px;
   padding-left: 20px;
 }
+
+.blue {
+  background-color: blue;
+  width: 150px;
+  height: 300px;
+  padding-top: 25px;
+  padding-bottom: 10px;
+  padding-right: 21px;
+  padding-left: 13px;
+  border-radius: 20px;
+}
+
+.green {
+  background-color: green;
+  width: 500px;
+  height: 220px;
+  border: 1px solid black;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-right: 19px;
+  padding-left: 19px;
+  margin: 0 auto;
+}
+
+.purple {
+  background-color: purple;
+  border: 2px dotted green;
+  border-radius: 40px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-right: 15px;
+  padding-left: 20px;
+}
+
+.transparent {
+  margin: auto;
+  width: 300px;
+  border: 2px solid red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
